@@ -1,12 +1,12 @@
-hash: 27310f323c5e02297ded49c65f7338b07fb1b68353cf7294aa3fab45139603ec
-updated: 2018-07-09T15:58:58.040885305+02:00
+hash: 1b0f125794e1b60b8cb92ebd1332c99b191d64b6b7b4fb1b1c4a958ac8402425
+updated: 2018-07-10T11:20:46.968392538+02:00
 imports:
 - name: github.com/beorn7/perks
-  version: 4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9
+  version: 3a771d992973f24aa725d07868b467d1ddfceafb
   subpackages:
   - quantile
 - name: github.com/codahale/hdrhistogram
-  version: f8ad88b59a584afeee9d334eff879b104439117b
+  version: 3a0bb77429bd3a61596f5e8a3172445844342120
 - name: github.com/davecgh/go-spew
   version: 8991bc29aa16c548c550c7ff78260e27b9ab7c73
   subpackages:
@@ -27,7 +27,7 @@ imports:
 - name: github.com/go-stack/stack
   version: 817915b46b97fd7bb80e8ab6b69f01a53ac3eebf
 - name: github.com/golang/protobuf
-  version: 7cc19b78d562895b13596ddce7aafb59dd789318
+  version: bbd03ef6da3a115852eaf24c8a1c46aeb39aa175
   subpackages:
   - proto
 - name: github.com/influxdata/influxdb
@@ -51,18 +51,20 @@ imports:
   subpackages:
   - prometheus
 - name: github.com/prometheus/client_model
-  version: 6f3806018612930941127f2a7c6c453ba2c527d2
+  version: 99fa1f4be8e564e8a6b613da7fa6f46c9edafc6c
   subpackages:
   - go
 - name: github.com/prometheus/common
-  version: 49fee292b27bfff7f354ee0f64e1bc4850462edf
+  version: 38c53a9f4bfcd932d1b00bfc65e256a7fba6b37a
   subpackages:
   - expfmt
   - internal/bitbucket.org/ww/goautoneg
   - model
 - name: github.com/prometheus/procfs
-  version: a1dba9ce8baed984a2495b658c82687f8157b98f
+  version: 780932d4fbbe0e69b84c34c20f5c8d0981e109ea
   subpackages:
+  - internal/util
+  - nfs
   - xfs
 - name: github.com/stretchr/testify
   version: f35b8ab0b5a2cef36673838d662e249dd9c94686

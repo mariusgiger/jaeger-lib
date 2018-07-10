@@ -2,7 +2,7 @@ package: github.com/uber/jaeger-lib
 import:
 - package: github.com/codahale/hdrhistogram
 - package: github.com/go-kit/kit
-  version: v0.7.0
+  branch: master
   subpackages:
   - metrics/influx
 - package: github.com/uber-go/tally

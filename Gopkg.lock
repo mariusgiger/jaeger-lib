@@ -26,6 +26,7 @@
   version = "v1.1.0"
 
 [[projects]]
+  branch = "master"
   name = "github.com/go-kit/kit"
   packages = [
     "log",
@@ -37,8 +38,7 @@
     "metrics/internal/lv",
     "metrics/prometheus"
   ]
-  revision = "ca4112baa34cb55091301bdc13b1420a122b1b9e"
-  version = "v0.7.0"
+  revision = "37dd21e10ccb4761e161e7264a5984f770ea18a5"
 
 [[projects]]
   name = "github.com/go-logfmt/logfmt"
@@ -137,6 +137,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "94d8c0fd35aba12d647b03541f9f319cd5eb2a7e0d6ff11a6b321915ff863821"
+  inputs-digest = "4557043322f70d55556f67f64530b013ea198e7cfc5680ea41736adb13f0b6c9"
   solver-name = "gps-cdcl"
   solver-version = 1
