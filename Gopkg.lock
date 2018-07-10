@@ -11,29 +11,34 @@
   branch = "master"
   name = "github.com/beorn7/perks"
   packages = ["quantile"]
-  revision = "4c0e84591b9aa9e6dcfdf3e020114cd81f89d5f9"
+  revision = "3a771d992973f24aa725d07868b467d1ddfceafb"
 
 [[projects]]
+  branch = "master"
   name = "github.com/codahale/hdrhistogram"
   packages = ["."]
-  revision = "f8ad88b59a584afeee9d334eff879b104439117b"
+  revision = "3a0bb77429bd3a61596f5e8a3172445844342120"
 
 [[projects]]
   name = "github.com/davecgh/go-spew"
   packages = ["spew"]
-  revision = "04cdfd42973bb9c8589fd6a731800cf222fde1a9"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/facebookgo/clock"
-  packages = ["."]
-  revision = "600d898af40aa09a7a93ecb9265d87b0504b6f03"
+  revision = "346938d642f2ec3594ed81d874461961cd0faa76"
+  version = "v1.1.0"
 
 [[projects]]
   name = "github.com/go-kit/kit"
-  packages = ["log","log/level","metrics","metrics/expvar","metrics/generic","metrics/influx","metrics/internal/lv","metrics/prometheus"]
-  revision = "a9ca6725cbbea455e61c6bc8a1ed28e81eb3493b"
-  version = "v0.5.0"
+  packages = [
+    "log",
+    "log/level",
+    "metrics",
+    "metrics/expvar",
+    "metrics/generic",
+    "metrics/influx",
+    "metrics/internal/lv",
+    "metrics/prometheus"
+  ]
+  revision = "ca4112baa34cb55091301bdc13b1420a122b1b9e"
+  version = "v0.7.0"
 
 [[projects]]
   name = "github.com/go-logfmt/logfmt"
@@ -44,18 +49,24 @@
 [[projects]]
   name = "github.com/go-stack/stack"
   packages = ["."]
-  revision = "817915b46b97fd7bb80e8ab6b69f01a53ac3eebf"
-  version = "v1.6.0"
+  revision = "259ab82a6cad3992b4e21ff5cac294ccb06474bc"
+  version = "v1.7.0"
 
 [[projects]]
   name = "github.com/golang/protobuf"
   packages = ["proto"]
-  revision = "7cc19b78d562895b13596ddce7aafb59dd789318"
+  revision = "b4deda0973fb4c70b50d226b1af49f3da59f5265"
+  version = "v1.1.0"
 
 [[projects]]
   name = "github.com/influxdata/influxdb"
-  packages = ["client/v2","models","pkg/escape"]
-  revision = "f3f30726d822c4be8cd00137ba66b6e4fd68cca1"
+  packages = [
+    "client/v2",
+    "models",
+    "pkg/escape"
+  ]
+  revision = "62ab18a0f43ee342b84debaaae5486b8b2d8682c"
+  version = "v1.6.0"
 
 [[projects]]
   branch = "master"
@@ -64,15 +75,16 @@
   revision = "b84e30acd515aadc4b783ad4ff83aff3299bdfe0"
 
 [[projects]]
-  branch = "master"
   name = "github.com/matttproud/golang_protobuf_extensions"
   packages = ["pbutil"]
   revision = "c12348ce28de40eed0136aa2b644d0ee0650e56c"
+  version = "v1.0.1"
 
 [[projects]]
   name = "github.com/pmezard/go-difflib"
   packages = ["difflib"]
-  revision = "d8ed2627bdf02c080bf22230dbb337003b7aba2d"
+  revision = "792786c7400a136282c1664665ae0a8db921c6c2"
+  version = "v1.0.0"
 
 [[projects]]
   name = "github.com/prometheus/client_golang"
@@ -81,34 +93,50 @@
   version = "v0.8.0"
 
 [[projects]]
+  branch = "master"
   name = "github.com/prometheus/client_model"
   packages = ["go"]
-  revision = "6f3806018612930941127f2a7c6c453ba2c527d2"
+  revision = "99fa1f4be8e564e8a6b613da7fa6f46c9edafc6c"
 
 [[projects]]
+  branch = "master"
   name = "github.com/prometheus/common"
-  packages = ["expfmt","internal/bitbucket.org/ww/goautoneg","model"]
-  revision = "49fee292b27bfff7f354ee0f64e1bc4850462edf"
+  packages = [
+    "expfmt",
+    "internal/bitbucket.org/ww/goautoneg",
+    "model"
+  ]
+  revision = "7600349dcfe1abd18d72d3a1770870d9800a7801"
 
 [[projects]]
+  branch = "master"
   name = "github.com/prometheus/procfs"
-  packages = [".","xfs"]
-  revision = "a1dba9ce8baed984a2495b658c82687f8157b98f"
+  packages = [
+    ".",
+    "internal/util",
+    "nfs",
+    "xfs"
+  ]
+  revision = "ae68e2d4c00fed4943b5f6698d504a5fe083da8a"
 
 [[projects]]
   name = "github.com/stretchr/testify"
-  packages = ["assert","require"]
-  revision = "05e8a0eda380579888eb53c394909df027f06991"
+  packages = [
+    "assert",
+    "require"
+  ]
+  revision = "f35b8ab0b5a2cef36673838d662e249dd9c94686"
+  version = "v1.2.2"
 
 [[projects]]
   name = "github.com/uber-go/tally"
   packages = ["."]
-  revision = "be9e53c77349ae2dd4b8c03a6dc20ed9a88b9927"
-  version = "v3.2.0"
+  revision = "79f2a33b0e55b1255ffbbaf824dcafb09ff34dda"
+  version = "v3.3.6"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "6a38cb6e727212ac18ae744a1a3f17dcd79235e1947fac5f63b41d3162328e1f"
+  inputs-digest = "94d8c0fd35aba12d647b03541f9f319cd5eb2a7e0d6ff11a6b321915ff863821"
   solver-name = "gps-cdcl"
   solver-version = 1
